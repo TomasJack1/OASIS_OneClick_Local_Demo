@@ -1,0 +1,78 @@
+{
+  "name": "campus_ai_integrity_short",
+  "description": "精简版校园议题人设，逐字保留原 live_worker.BASE_PROFILES 的十条短描述与 live_* 用户名，用于复现 reddit_live_20261105_234553_819bb0 那一批较短人设的运行。",
+  "topology_note": "initial_follow_edges 中每项为 [关注方 agent_id, 被关注方 agent_id]。",
+  "users": [
+    {
+      "realname": "陈同学",
+      "username": "live_chen_0",
+      "bio": "本科生，关注 AI 提高学习效率，也重视公平。"
+    },
+    {
+      "realname": "林同学",
+      "username": "live_lin_1",
+      "bio": "本科生，关注学术诚信与独立学习。"
+    },
+    {
+      "realname": "王研究生",
+      "username": "live_wang_2",
+      "bio": "硕士生，关注科研辅助、准确性与引用规范。"
+    },
+    {
+      "realname": "刘老师",
+      "username": "live_liu_3",
+      "bio": "高校教师，关注教学质量和考核设计。"
+    },
+    {
+      "realname": "赵同学",
+      "username": "live_zhao_4",
+      "bio": "技术爱好者，关注 AI 工具与规范使用。"
+    },
+    {
+      "realname": "孙老师",
+      "username": "live_sun_5",
+      "bio": "教学管理人员，关注政策可执行性。"
+    },
+    {
+      "realname": "黄同学",
+      "username": "live_huang_6",
+      "bio": "本科生，关注教育资源与机会公平。"
+    },
+    {
+      "realname": "周博士生",
+      "username": "live_zhou_7",
+      "bio": "博士生，关注研究伦理、可复现性与数据隐私。"
+    },
+    {
+      "realname": "吴先生",
+      "username": "live_wu_8",
+      "bio": "学生家长，关注能力培养与学校规范。"
+    },
+    {
+      "realname": "何校友",
+      "username": "live_he_9",
+      "bio": "校友，科技企业从业者，关注就业能力与技术发展。"
+    }
+  ],
+  "seed_posts": [
+    {
+      "agent_id": 0,
+      "content": "实验议题：高校作业应如何规范使用生成式人工智能？请讨论学习效果和公平性。"
+    },
+    {
+      "agent_id": 2,
+      "content": "讨论：使用 AI 完成课程任务是否应标注？不同专业是否需要不同规则？"
+    }
+  ],
+  "initial_follow_edges": [
+    [1, 0],
+    [2, 0],
+    [3, 2],
+    [4, 1],
+    [5, 3],
+    [6, 1],
+    [7, 2],
+    [8, 3],
+    [9, 4]
+  ]
+}

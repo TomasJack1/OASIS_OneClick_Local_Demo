@@ -1,0 +1,19 @@
+# Never commit or publish this demo with its included credential.
+.env
+.venv/
+.tools/
+.dependencies_ready
+__pycache__/
+*.pyc
+
+# 单跑锁与原子写入临时文件不属于任何实验结果。
+experiments/.active.json
+**/*.tmp
+
+# CAMEL/OASIS 会在进程 CWD 建 log/；worker 已把 CWD 设成实验目录，
+# 但从项目根直接运行脚本时仍会生成这里的一份。
+log/
+
+# experiments/ 下的每个文件夹是一组实验结果，会随包一起分发。
+# 若不想某组新实验被打包出去，直接把它的文件夹移走即可。
+experiments/*

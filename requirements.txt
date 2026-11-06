@@ -1,0 +1,8 @@
+# Python 3.11 required (unstructured==0.13.7 from OASIS does not support 3.12)
+camel-oasis==0.2.6
+streamlit>=1.37,<2
+pandas>=2.2,<3
+plotly>=5.20,<7
+networkx>=3.2,<4
+python-dotenv>=1.0,<2
+psutil>=5.9,<8
