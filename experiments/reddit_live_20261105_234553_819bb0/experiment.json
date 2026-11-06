@@ -1,0 +1,201 @@
+{
+  "database": "reddit_live_20261105_234553_819bb0.db",
+  "model": "qwen3.7-flash",
+  "platform": "reddit",
+  "agents_requested": 7,
+  "llm_rounds": 2,
+  "manual_seed_posts": 2,
+  "seed_network": true,
+  "seeded_follow_edges": [
+    {
+      "source_agent_id": 1,
+      "target_agent_id": 0,
+      "target_user_id": 0,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 2,
+      "target_agent_id": 0,
+      "target_user_id": 0,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 3,
+      "target_agent_id": 2,
+      "target_user_id": 2,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 4,
+      "target_agent_id": 1,
+      "target_user_id": 1,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 5,
+      "target_agent_id": 3,
+      "target_user_id": 3,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 6,
+      "target_agent_id": 1,
+      "target_user_id": 1,
+      "origin": "manual_experimental_initialization"
+    }
+  ],
+  "stages": [
+    {
+      "phase": "manual_seed_posts",
+      "actor": "研究者预设帖子",
+      "trace_count_before": 7,
+      "trace_count_after": 9,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:46:05.247362+00:00",
+      "wall_end_utc": "2026-11-05T15:46:05.385666+00:00"
+    },
+    {
+      "phase": "manual_seed_follows",
+      "actor": "研究者预设关系",
+      "trace_count_before": 9,
+      "trace_count_after": 15,
+      "new_trace_rows": 6,
+      "wall_start_utc": "2026-11-05T15:46:05.394796+00:00",
+      "wall_end_utc": "2026-11-05T15:46:05.584559+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "陈同学 · Agent 0",
+      "trace_count_before": 15,
+      "trace_count_after": 17,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:46:05.592472+00:00",
+      "wall_end_utc": "2026-11-05T15:46:23.766486+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "林同学 · Agent 1",
+      "trace_count_before": 17,
+      "trace_count_after": 19,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:46:23.776870+00:00",
+      "wall_end_utc": "2026-11-05T15:46:47.703347+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "王研究生 · Agent 2",
+      "trace_count_before": 19,
+      "trace_count_after": 21,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:46:47.717002+00:00",
+      "wall_end_utc": "2026-11-05T15:47:55.966348+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "刘老师 · Agent 3",
+      "trace_count_before": 21,
+      "trace_count_after": 23,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:47:55.975902+00:00",
+      "wall_end_utc": "2026-11-05T15:48:18.942754+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "赵同学 · Agent 4",
+      "trace_count_before": 23,
+      "trace_count_after": 25,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:48:18.953280+00:00",
+      "wall_end_utc": "2026-11-05T15:48:53.003889+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "孙老师 · Agent 5",
+      "trace_count_before": 25,
+      "trace_count_after": 27,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:48:53.024683+00:00",
+      "wall_end_utc": "2026-11-05T15:49:19.683643+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "黄同学 · Agent 6",
+      "trace_count_before": 27,
+      "trace_count_after": 29,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:49:19.694669+00:00",
+      "wall_end_utc": "2026-11-05T15:49:54.033142+00:00"
+    },
+    {
+      "phase": "llm_round_2",
+      "actor": "陈同学 · Agent 0",
+      "trace_count_before": 29,
+      "trace_count_after": 31,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:49:54.047090+00:00",
+      "wall_end_utc": "2026-11-05T15:50:07.316034+00:00"
+    },
+    {
+      "phase": "llm_round_2",
+      "actor": "林同学 · Agent 1",
+      "trace_count_before": 31,
+      "trace_count_after": 33,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:50:07.327003+00:00",
+      "wall_end_utc": "2026-11-05T15:50:22.476540+00:00"
+    },
+    {
+      "phase": "llm_round_2",
+      "actor": "王研究生 · Agent 2",
+      "trace_count_before": 33,
+      "trace_count_after": 35,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:50:22.487941+00:00",
+      "wall_end_utc": "2026-11-05T15:50:42.054683+00:00"
+    },
+    {
+      "phase": "llm_round_2",
+      "actor": "刘老师 · Agent 3",
+      "trace_count_before": 35,
+      "trace_count_after": 37,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:50:42.070230+00:00",
+      "wall_end_utc": "2026-11-05T15:50:57.423021+00:00"
+    },
+    {
+      "phase": "llm_round_2",
+      "actor": "赵同学 · Agent 4",
+      "trace_count_before": 37,
+      "trace_count_after": 39,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:50:57.431947+00:00",
+      "wall_end_utc": "2026-11-05T15:51:11.722202+00:00"
+    },
+    {
+      "phase": "llm_round_2",
+      "actor": "孙老师 · Agent 5",
+      "trace_count_before": 39,
+      "trace_count_after": 41,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:51:11.737525+00:00",
+      "wall_end_utc": "2026-11-05T15:51:26.507129+00:00"
+    },
+    {
+      "phase": "llm_round_2",
+      "actor": "黄同学 · Agent 6",
+      "trace_count_before": 41,
+      "trace_count_after": 43,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-05T15:51:26.519156+00:00",
+      "wall_end_utc": "2026-11-05T15:51:48.573454+00:00"
+    }
+  ],
+  "counts": {
+    "user": 7,
+    "post": 3,
+    "comment": 12,
+    "follow": 6,
+    "trace": 43
+  },
+  "execution_note": "Live interactive mode runs one LLM Agent per env.step sequentially. This differs from parallel rounds."
+}

@@ -1,0 +1,115 @@
+{
+  "database": "reddit_multi_10_20261105_123401.db",
+  "model": "qwen3.7-flash",
+  "platform": "reddit",
+  "agents_requested": 10,
+  "llm_rounds": 3,
+  "manual_seed_posts": 2,
+  "seed_network": true,
+  "seeded_follow_edges": [
+    {
+      "source_agent_id": 1,
+      "target_agent_id": 0,
+      "target_user_id": 0,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 2,
+      "target_agent_id": 0,
+      "target_user_id": 0,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 3,
+      "target_agent_id": 2,
+      "target_user_id": 2,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 4,
+      "target_agent_id": 1,
+      "target_user_id": 1,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 5,
+      "target_agent_id": 3,
+      "target_user_id": 3,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 6,
+      "target_agent_id": 1,
+      "target_user_id": 1,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 7,
+      "target_agent_id": 2,
+      "target_user_id": 2,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 8,
+      "target_agent_id": 3,
+      "target_user_id": 3,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 9,
+      "target_agent_id": 4,
+      "target_user_id": 4,
+      "origin": "manual_experimental_initialization"
+    }
+  ],
+  "event_step_boundary_note": "Stages count trace rows as executed; not simulated-time periods. Manual stages are experimenter interventions.",
+  "stages": [
+    {
+      "phase": "manual_seed_posts",
+      "wall_start_utc": "2026-11-05T04:34:01.795687+00:00",
+      "wall_end_utc": "2026-11-05T04:34:01.934633+00:00",
+      "trace_count_before": 10,
+      "trace_count_after": 12,
+      "new_trace_rows": 2
+    },
+    {
+      "phase": "manual_seed_follows",
+      "wall_start_utc": "2026-11-05T04:34:01.936142+00:00",
+      "wall_end_utc": "2026-11-05T04:34:02.170390+00:00",
+      "trace_count_before": 12,
+      "trace_count_after": 21,
+      "new_trace_rows": 9
+    },
+    {
+      "phase": "llm_round_1",
+      "wall_start_utc": "2026-11-05T04:34:02.175926+00:00",
+      "wall_end_utc": "2026-11-05T04:36:06.567775+00:00",
+      "trace_count_before": 21,
+      "trace_count_after": 43,
+      "new_trace_rows": 22
+    },
+    {
+      "phase": "llm_round_2",
+      "wall_start_utc": "2026-11-05T04:36:06.569609+00:00",
+      "wall_end_utc": "2026-11-05T04:37:48.217861+00:00",
+      "trace_count_before": 43,
+      "trace_count_after": 64,
+      "new_trace_rows": 21
+    },
+    {
+      "phase": "llm_round_3",
+      "wall_start_utc": "2026-11-05T04:37:48.217861+00:00",
+      "wall_end_utc": "2026-11-05T04:39:28.744383+00:00",
+      "trace_count_before": 64,
+      "trace_count_after": 84,
+      "new_trace_rows": 20
+    }
+  ],
+  "counts": {
+    "user": 10,
+    "post": 2,
+    "comment": 31,
+    "follow": 9,
+    "trace": 84
+  }
+}
