@@ -1,0 +1,105 @@
+{
+  "database": "experiment.db",
+  "experiment_name": "campus_ai_integrity_20261106_1425",
+  "model": "qwen3.8-27b",
+  "platform": "reddit",
+  "profile_file": "campus_ai_integrity.json",
+  "profile_sha256": "1c8d016dd0c8fbd2211dd7435fb951a61e1dd8047b46636168a27bc314ced5b1",
+  "agents_requested": 10,
+  "llm_rounds": 2,
+  "manual_seed_posts": 2,
+  "seed_network": true,
+  "seeded_follow_edges": [
+    {
+      "source_agent_id": 1,
+      "target_agent_id": 0,
+      "target_user_id": 0,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 2,
+      "target_agent_id": 0,
+      "target_user_id": 0,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 3,
+      "target_agent_id": 2,
+      "target_user_id": 2,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 4,
+      "target_agent_id": 1,
+      "target_user_id": 1,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 5,
+      "target_agent_id": 3,
+      "target_user_id": 3,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 6,
+      "target_agent_id": 1,
+      "target_user_id": 1,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 7,
+      "target_agent_id": 2,
+      "target_user_id": 2,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 8,
+      "target_agent_id": 3,
+      "target_user_id": 3,
+      "origin": "manual_experimental_initialization"
+    },
+    {
+      "source_agent_id": 9,
+      "target_agent_id": 4,
+      "target_user_id": 4,
+      "origin": "manual_experimental_initialization"
+    }
+  ],
+  "stages": [
+    {
+      "phase": "manual_seed_posts",
+      "actor": "研究者预设帖子",
+      "trace_count_before": 10,
+      "trace_count_after": 12,
+      "new_trace_rows": 2,
+      "wall_start_utc": "2026-11-06T06:26:48.856570+00:00",
+      "wall_end_utc": "2026-11-06T06:26:49.142919+00:00"
+    },
+    {
+      "phase": "manual_seed_follows",
+      "actor": "研究者预设关系",
+      "trace_count_before": 12,
+      "trace_count_after": 21,
+      "new_trace_rows": 9,
+      "wall_start_utc": "2026-11-06T06:26:49.172771+00:00",
+      "wall_end_utc": "2026-11-06T06:26:50.057880+00:00"
+    },
+    {
+      "phase": "llm_round_1",
+      "actor": "陈同学 · Agent 0",
+      "trace_count_before": 21,
+      "trace_count_after": 22,
+      "new_trace_rows": 1,
+      "wall_start_utc": "2026-11-06T06:26:50.091771+00:00",
+      "wall_end_utc": "2026-11-06T06:26:53.448428+00:00"
+    }
+  ],
+  "counts": {
+    "user": 10,
+    "post": 2,
+    "comment": 0,
+    "follow": 9,
+    "trace": 22
+  },
+  "execution_note": "Live interactive mode runs one LLM Agent per env.step sequentially. This differs from parallel rounds."
+}

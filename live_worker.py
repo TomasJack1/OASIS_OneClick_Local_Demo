@@ -30,11 +30,7 @@ def now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def atomic_json(path: Path, obj: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temp = path.with_name(path.name + ".tmp")
-    temp.write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
-    os.replace(temp, path)
+atomic_json = layout.atomic_json
 
 
 def sql_counts(db_path: Path) -> dict[str, int]:
@@ -133,8 +129,14 @@ async def simulate(a, progress, meta, meta_path: Path):
         if completed is not None:
             progress["completed_decisions"] = completed
         meta["counts"] = counts
-        atomic_json(meta_path, meta)
-        atomic_json(a.status, progress)
+        # 进度与阶段记录写失败只影响网页观感，不该中断已经付费的模拟；
+        # 重试仍失败就记进 run.log，下一次 flush 会重新写完整内容。
+        for label, target, payload in (("experiment.json", meta_path, meta),
+                                       ("status.json", a.status, progress)):
+            try:
+                atomic_json(target, payload)
+            except OSError as exc:
+                print(f"[WARN] 写入 {label} 失败，本次刷新跳过：{exc}", flush=True)
         print(f"[PROGRESS] {phase} {actor} {counts}", flush=True)
 
     async def phase_step(label: str, selected: dict, actor: str = ""):

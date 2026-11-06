@@ -1,0 +1,29 @@
+{
+  "run_id": "20261106_142533_8baebe",
+  "name": "campus_ai_integrity_20261106_1425",
+  "state": "error",
+  "pid": 35740,
+  "experiment": "C:\\Users\\24012\\Desktop\\社交网络模拟\\OASIS_OneClick_Local_Demo\\experiments\\campus_ai_integrity_20261106_1425",
+  "profile": "campus_ai_integrity.json",
+  "agents": 10,
+  "rounds": 2,
+  "seed_network": true,
+  "model": "qwen3.8-27b",
+  "db": "C:\\Users\\24012\\Desktop\\社交网络模拟\\OASIS_OneClick_Local_Demo\\experiments\\campus_ai_integrity_20261106_1425\\experiment.db",
+  "phase": "执行失败",
+  "actor": "",
+  "completed_decisions": 1,
+  "total_decisions": 20,
+  "started_utc": "2026-11-06T06:26:48.682621+00:00",
+  "last_update_utc": "2026-11-06T06:26:53.532899+00:00",
+  "counts": {
+    "user": 10,
+    "post": 2,
+    "comment": 0,
+    "follow": 9,
+    "trace": 22
+  },
+  "round": 1,
+  "error": "PermissionError: [WinError 5] 拒绝访问。: 'C:\\\\Users\\\\24012\\\\Desktop\\\\社交网络模拟\\\\OASIS_OneClick_Local_Demo\\\\experiments\\\\campus_ai_integrity_20261106_1425\\\\status.json.tmp' -> 'C:\\\\Users\\\\24012\\\\Desktop\\\\社交网络模拟\\\\OASIS_OneClick_Local_Demo\\\\experiments\\\\campus_ai_integrity_20261106_1425\\\\status.json'",
+  "ended_utc": "2026-11-06T06:26:53.532899+00:00"
+}

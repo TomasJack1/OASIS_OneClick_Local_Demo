@@ -12,7 +12,10 @@ experiments/
 """
 from __future__ import annotations
 
+import json
+import os
 import re
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -36,6 +39,26 @@ _WINDOWS_RESERVED = {
 
 def db_path(name: str) -> Path:
     return EXPERIMENTS_DIR / name / DB_NAME
+
+
+def atomic_json(path: Path, obj: dict, attempts: int = 12) -> None:
+    """原子写 JSON。
+
+    Windows 上若目标文件正被另一进程打开读取（网页端每 2 秒轮询 status.json），
+    os.replace 会抛 PermissionError；这类冲突存在时间极短，短暂重试即可越过。
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_name(path.name + ".tmp")
+    payload = json.dumps(obj, ensure_ascii=False, indent=2)
+    for i in range(attempts):
+        try:
+            temp.write_text(payload, encoding="utf-8")
+            os.replace(temp, path)
+            return
+        except PermissionError:
+            if i == attempts - 1:
+                raise
+            time.sleep(0.02 * (i + 1))
 
 
 def experiment_dir(name: str) -> Path:

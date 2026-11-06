@@ -1,0 +1,1436 @@
+2026-11-06 14:38:44,574 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,154 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,321 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,457 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,552 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,626 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,679 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,719 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,759 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+2026-11-06 14:38:45,802 - root - WARNING - Unknown model 'qwen3.8-27b': context window size not defined. Defaulting to 999_999_999.
+db_path C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\experiments\campus_ai_integrity_20261106_1438\experiment.db
+[PROGRESS] 注册 Agent  {'user': 10, 'post': 0, 'comment': 0, 'follow': 0, 'trace': 10}
+[PROGRESS] manual_seed_posts 研究者预设帖子 {'user': 10, 'post': 0, 'comment': 0, 'follow': 0, 'trace': 10}
+2026-11-06 14:38:46,200 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:46,212 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:46,402 - social.agent - INFO - Agent 0: {'success': True, 'post_id': 1}
+2026-11-06 14:38:46,448 - social.agent - INFO - Agent 2: {'success': True, 'post_id': 2}
+2026-11-06 14:38:46,449 - oasis.env - INFO - performed all actions.
+[PROGRESS] manual_seed_posts 研究者预设帖子 {'user': 10, 'post': 2, 'comment': 0, 'follow': 0, 'trace': 12}
+[PROGRESS] manual_seed_follows 研究者预设关系 {'user': 10, 'post': 2, 'comment': 0, 'follow': 0, 'trace': 12}
+2026-11-06 14:38:46,532 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:46,542 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:47,467 - social.agent - INFO - Agent 1: {'success': True, 'follow_id': 1}
+2026-11-06 14:38:47,467 - social.agent - INFO - Agent 2: {'success': True, 'follow_id': 2}
+2026-11-06 14:38:47,467 - social.agent - INFO - Agent 3: {'success': True, 'follow_id': 3}
+2026-11-06 14:38:47,468 - social.agent - INFO - Agent 4: {'success': True, 'follow_id': 4}
+2026-11-06 14:38:47,473 - social.agent - INFO - Agent 5: {'success': True, 'follow_id': 5}
+2026-11-06 14:38:47,474 - social.agent - INFO - Agent 6: {'success': True, 'follow_id': 6}
+2026-11-06 14:38:47,474 - social.agent - INFO - Agent 7: {'success': True, 'follow_id': 7}
+2026-11-06 14:38:47,474 - social.agent - INFO - Agent 8: {'success': True, 'follow_id': 8}
+2026-11-06 14:38:47,474 - social.agent - INFO - Agent 9: {'success': True, 'follow_id': 9}
+2026-11-06 14:38:47,474 - oasis.env - INFO - performed all actions.
+[PROGRESS] manual_seed_follows 研究者预设关系 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 21}
+[PROGRESS] llm_round_1 陈同学 · Agent 0 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 21}
+2026-11-06 14:38:47,567 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:47,583 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:47,818 - social.agent - INFO - Agent 0 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:51,960 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:51,961 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:51,969 - social.agent - ERROR - Agent 0 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:51,969 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 陈同学 · Agent 0 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 22}
+[PROGRESS] llm_round_1 陈同学 · Agent 0 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 22}
+[PROGRESS] llm_round_1 林同学 · Agent 1 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 22}
+2026-11-06 14:38:52,047 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:52,060 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:52,308 - social.agent - INFO - Agent 1 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:52,450 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:52,450 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:52,452 - social.agent - ERROR - Agent 1 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:52,452 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 林同学 · Agent 1 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 23}
+[PROGRESS] llm_round_1 林同学 · Agent 1 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 23}
+[PROGRESS] llm_round_1 王研究生 · Agent 2 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 23}
+2026-11-06 14:38:52,534 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:52,549 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:52,788 - social.agent - INFO - Agent 2 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:52,957 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:52,957 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:52,960 - social.agent - ERROR - Agent 2 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:52,960 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 王研究生 · Agent 2 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 24}
+[PROGRESS] llm_round_1 王研究生 · Agent 2 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 24}
+[PROGRESS] llm_round_1 刘老师 · Agent 3 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 24}
+2026-11-06 14:38:53,026 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:53,043 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:53,285 - social.agent - INFO - Agent 3 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:53,519 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:53,520 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:53,522 - social.agent - ERROR - Agent 3 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:53,522 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 刘老师 · Agent 3 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 25}
+[PROGRESS] llm_round_1 刘老师 · Agent 3 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 25}
+[PROGRESS] llm_round_1 赵同学 · Agent 4 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 25}
+2026-11-06 14:38:53,641 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:53,658 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:53,876 - social.agent - INFO - Agent 4 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:54,120 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:54,121 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:54,125 - social.agent - ERROR - Agent 4 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:54,125 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 赵同学 · Agent 4 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 26}
+[PROGRESS] llm_round_1 赵同学 · Agent 4 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 26}
+[PROGRESS] llm_round_1 孙老师 · Agent 5 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 26}
+2026-11-06 14:38:54,196 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:54,212 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:54,452 - social.agent - INFO - Agent 5 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:54,641 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:54,641 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:54,644 - social.agent - ERROR - Agent 5 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:54,645 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 孙老师 · Agent 5 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 27}
+[PROGRESS] llm_round_1 孙老师 · Agent 5 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 27}
+[PROGRESS] llm_round_1 黄同学 · Agent 6 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 27}
+2026-11-06 14:38:54,827 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:54,842 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:55,073 - social.agent - INFO - Agent 6 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:55,685 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:55,685 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:55,687 - social.agent - ERROR - Agent 6 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:55,687 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 黄同学 · Agent 6 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 28}
+[PROGRESS] llm_round_1 黄同学 · Agent 6 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 28}
+[PROGRESS] llm_round_1 周博士生 · Agent 7 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 28}
+2026-11-06 14:38:55,752 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:55,763 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:56,004 - social.agent - INFO - Agent 7 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:56,163 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:56,163 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:56,164 - social.agent - ERROR - Agent 7 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:56,164 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 周博士生 · Agent 7 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 29}
+[PROGRESS] llm_round_1 周博士生 · Agent 7 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 29}
+[PROGRESS] llm_round_1 吴先生 · Agent 8 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 29}
+2026-11-06 14:38:56,265 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:56,292 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:56,545 - social.agent - INFO - Agent 8 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:56,877 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:56,877 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:56,880 - social.agent - ERROR - Agent 8 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:56,881 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 吴先生 · Agent 8 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 30}
+[PROGRESS] llm_round_1 吴先生 · Agent 8 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 30}
+[PROGRESS] llm_round_1 何校友 · Agent 9 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 30}
+2026-11-06 14:38:56,967 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:56,978 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:57,230 - social.agent - INFO - Agent 9 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:57,373 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:57,373 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:57,377 - social.agent - ERROR - Agent 9 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:57,383 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_1 何校友 · Agent 9 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 31}
+[PROGRESS] llm_round_1 何校友 · Agent 9 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 31}
+[PROGRESS] llm_round_2 陈同学 · Agent 0 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 31}
+2026-11-06 14:38:57,502 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:57,527 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:57,745 - social.agent - INFO - Agent 0 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:57,849 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:57,849 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:57,852 - social.agent - ERROR - Agent 0 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:57,852 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 陈同学 · Agent 0 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 32}
+[PROGRESS] llm_round_2 陈同学 · Agent 0 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 32}
+[PROGRESS] llm_round_2 林同学 · Agent 1 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 32}
+2026-11-06 14:38:57,919 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:57,936 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:58,179 - social.agent - INFO - Agent 1 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:58,300 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:58,300 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:58,303 - social.agent - ERROR - Agent 1 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:58,304 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 林同学 · Agent 1 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 33}
+[PROGRESS] llm_round_2 林同学 · Agent 1 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 33}
+[PROGRESS] llm_round_2 王研究生 · Agent 2 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 33}
+2026-11-06 14:38:58,385 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:58,398 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:58,631 - social.agent - INFO - Agent 2 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:58,930 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:58,930 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:58,932 - social.agent - ERROR - Agent 2 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:58,932 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 王研究生 · Agent 2 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 34}
+[PROGRESS] llm_round_2 王研究生 · Agent 2 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 34}
+[PROGRESS] llm_round_2 刘老师 · Agent 3 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 34}
+2026-11-06 14:38:59,002 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:59,016 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:59,256 - social.agent - INFO - Agent 3 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:38:59,476 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:38:59,476 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:59,478 - social.agent - ERROR - Agent 3 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:38:59,478 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 刘老师 · Agent 3 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 35}
+[PROGRESS] llm_round_2 刘老师 · Agent 3 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 35}
+[PROGRESS] llm_round_2 赵同学 · Agent 4 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 35}
+2026-11-06 14:38:59,580 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:38:59,597 - oasis.env - INFO - update rec table.
+2026-11-06 14:38:59,826 - social.agent - INFO - Agent 4 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:39:00,207 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:39:00,207 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:00,209 - social.agent - ERROR - Agent 4 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:00,210 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 赵同学 · Agent 4 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 36}
+[PROGRESS] llm_round_2 赵同学 · Agent 4 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 36}
+[PROGRESS] llm_round_2 孙老师 · Agent 5 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 36}
+2026-11-06 14:39:00,332 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:39:00,358 - oasis.env - INFO - update rec table.
+2026-11-06 14:39:00,587 - social.agent - INFO - Agent 5 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:39:05,760 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:39:05,760 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:05,762 - social.agent - ERROR - Agent 5 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:05,762 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 孙老师 · Agent 5 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 37}
+[PROGRESS] llm_round_2 孙老师 · Agent 5 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 37}
+[PROGRESS] llm_round_2 黄同学 · Agent 6 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 37}
+2026-11-06 14:39:05,842 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:39:05,856 - oasis.env - INFO - update rec table.
+2026-11-06 14:39:06,081 - social.agent - INFO - Agent 6 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:39:06,312 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:39:06,312 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:06,315 - social.agent - ERROR - Agent 6 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:06,315 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 黄同学 · Agent 6 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 38}
+[PROGRESS] llm_round_2 黄同学 · Agent 6 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 38}
+[PROGRESS] llm_round_2 周博士生 · Agent 7 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 38}
+2026-11-06 14:39:06,409 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:39:06,424 - oasis.env - INFO - update rec table.
+2026-11-06 14:39:06,658 - social.agent - INFO - Agent 7 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:39:06,891 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:39:06,892 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:06,893 - social.agent - ERROR - Agent 7 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:06,893 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 周博士生 · Agent 7 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 39}
+[PROGRESS] llm_round_2 周博士生 · Agent 7 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 39}
+[PROGRESS] llm_round_2 吴先生 · Agent 8 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 39}
+2026-11-06 14:39:06,977 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:39:06,991 - oasis.env - INFO - update rec table.
+2026-11-06 14:39:07,215 - social.agent - INFO - Agent 8 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:39:07,378 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:39:07,379 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:07,380 - social.agent - ERROR - Agent 8 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:07,383 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 吴先生 · Agent 8 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 40}
+[PROGRESS] llm_round_2 吴先生 · Agent 8 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 40}
+[PROGRESS] llm_round_2 何校友 · Agent 9 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 40}
+2026-11-06 14:39:07,458 - social.twitter - INFO - Starting to refresh recommendation system cache...
+2026-11-06 14:39:07,474 - oasis.env - INFO - update rec table.
+2026-11-06 14:39:07,709 - social.agent - INFO - Agent 9 observing environment: And there are many group chat channels {}
+And You are already in some groups []
+You receive some messages from them {}
+You can join the groups you are interested, leave the groups you already in, send messages to the group you already in.
+You must make sure you can only send messages to the group you are already in
+After refreshing, you see some posts [
+    {
+        "post_id": 1,
+        "user_id": 0,
+        "content": "\u5b9e\u9a8c\u8bae\u9898\uff1a\u9ad8\u6821\u4f5c\u4e1a\u5e94\u5982\u4f55\u89c4\u8303\u4f7f\u7528\u751f\u6210\u5f0f\u4eba\u5de5\u667a\u80fd\uff1f\u8bf7\u8ba8\u8bba\u5b66\u4e60\u6548\u679c\u548c\u516c\u5e73\u6027\u3002",
+        "created_at": "2026-11-06 14:39:17.980202",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    },
+    {
+        "post_id": 2,
+        "user_id": 2,
+        "content": "\u8ba8\u8bba\uff1a\u4f7f\u7528 AI \u5b8c\u6210\u8bfe\u7a0b\u4efb\u52a1\u662f\u5426\u5e94\u6807\u6ce8\uff1f\u4e0d\u540c\u4e13\u4e1a\u662f\u5426\u9700\u8981\u4e0d\u540c\u89c4\u5219\uff1f",
+        "created_at": "2026-11-06 14:39:18.904862",
+        "score": 0,
+        "num_shares": 0,
+        "num_reports": 0,
+        "comments": []
+    }
+]
+pick one you want to perform action that best reflects your current inclination based on your profile and posts content. Do not limit your action in just `like` to like posts
+2026-11-06 14:39:08,450 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_compatible_model.OpenAICompatibleModel object at 0x0000022CE9CDEFD0>
+2026-11-06 14:39:08,450 - camel.camel.agents.chat_agent - ERROR - Model error: qwen3.8-27b
+Traceback (most recent call last):
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 3652, in _aget_model_response
+    response = await self.model_backend.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
+    raise exc
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
+    response = await self.current_model.arun(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 227, in wrapped_arun
+    result = await original_arun(self, messages, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 948, in arun
+    result = await self._arun(messages, response_format, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 273, in _arun
+    result = await self._arequest_chat_completion(messages, tools)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\openai_compatible_model.py", line 298, in _arequest_chat_completion
+    return await self._acall_client(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\camel\models\base_model.py", line 410, in _acall_client
+    return await call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 3414, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 2085, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\.venv\Lib\site-packages\openai\_base_client.py", line 1870, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:08,452 - social.agent - ERROR - Agent 9 error: Error code: 400 - rrgw.BadRequestError: upstream - System message must be at the beginning.
+2026-11-06 14:39:08,452 - oasis.env - INFO - performed all actions.
+[PROGRESS] llm_round_2 何校友 · Agent 9 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 41}
+[PROGRESS] llm_round_2 何校友 · Agent 9 {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 41}
+[PROGRESS] 全部执行完成  {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 41}
+2026-11-06 14:39:08,543 - oasis.env - INFO - Simulation finished! Please check the results in the database: C:\Users\24012\Desktop\社交网络模拟\OASIS_OneClick_Local_Demo\experiments\campus_ai_integrity_20261106_1438\experiment.db. Note that the trace table stored all the actions of the agents.
+[PROGRESS] 全部执行完成  {'user': 10, 'post': 2, 'comment': 0, 'follow': 9, 'trace': 41}

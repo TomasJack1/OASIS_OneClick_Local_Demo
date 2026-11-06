@@ -38,11 +38,7 @@ def _read_json(path: Path) -> dict:
         return {}
 
 
-def _atomic_json(path: Path, obj: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    temp = path.with_name(path.name + ".tmp")
-    temp.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
-    os.replace(temp, path)
+_atomic_json = layout.atomic_json
 
 
 def get_active() -> dict:
